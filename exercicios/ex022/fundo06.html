@@ -6,16 +6,24 @@
     <title>Posicionamento</title>
     <style>
         body{
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url('Imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /*ShortHand - Background
+                color > image > position > repeat > [size(ainda não compatível com os navegadores)]
+                > attachment
+            */
+            background: black url('Imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -25,7 +33,7 @@
 </head>
 <body>
     <main>
-        <h1>Teste de Imagem de Fundo</h1>
+        <h1>Fundo Fixo de Tela</h1>
 
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit quos repellat animi exercitationem repudiandae laboriosam eaque incidunt, ex enim labore nulla beatae ullam quam sunt fugiat nobis voluptatibus consectetur perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem tempora, expedita velit ullam necessitatibus laboriosam deleniti officia fuga fugiat cumque, tempore in non magnam, ipsam ea? Ullam neque nisi eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dicta adipisci incidunt, a aut, veritatis deserunt sed natus cum voluptatem odit modi optio, nemo necessitatibus temporibus. Excepturi quidem iusto qui!</p>
 
