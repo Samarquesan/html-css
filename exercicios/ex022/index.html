@@ -3,10 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manipulando Respositórios</title>
+    <title>Imagens de fundo</title>
+    <style>
+        body{
+            background-image: url('Imagens/Exódia.png ');
+        }
+        div.quadrado{
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+        }
+        div#q1{
+            background-image: url('Imagens/Gintama.jpg');
+        }
+
+        div#q2{
+            background-image: linear-gradient(to bottom,yellow, red);
+        }
+
+        div#q3{
+            background-image: url('Imagens/b-komachi.webp');
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Teste de Respositórios</h1>
-    <p>Teste aqui como atualizar meu git em outra máquina.</p>
+    <h1>Teste de Imagens de Fundo</h1>
+
+    <div class="quadrado" id="q1">
+
+    </div>
+
+    <div class="quadrado" id="q2">
+
+    </div>
+
+    <div class="quadrado" id="q3">
+
+    </div>
+
 </body>
 </html>
