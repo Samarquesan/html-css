@@ -7,3 +7,6 @@
 div{
     margin: 10px;
 }
+fieldset#cadastro{
+    background-color: rgba(32, 178, 171, 0.415);
+}
