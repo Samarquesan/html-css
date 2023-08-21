@@ -10,3 +10,9 @@ div{
 fieldset#cadastro{
     background-color: rgba(32, 178, 171, 0.415);
 }
+
+fieldset#idesportefav{
+    background-color: rgba(0, 183, 255, 0.293);
+    padding: 10px;
+    margin: 10px;
+}
