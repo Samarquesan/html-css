@@ -18,8 +18,21 @@ header{
  }
 
  menu {
-    display: block;
+    display: none;
     
+ }
+
+ span#burguer{
+   background-color: rgb(29, 15, 3);
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 10px;
+ }
+ span#burguer:hover{
+   background-color: white;
+   color: black;
+   cursor: pointer;
  }
 
  menu > ul {

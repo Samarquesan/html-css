@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="estilos/index.css">
+    <script src="logica.js"></script>
+    
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <span class="material-icons" id="burguer" onclick="clickMenu()">menu</span>
+        <menu id="idmenu">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Notícias</a></li>
@@ -31,5 +36,6 @@
             <p>Um homem de 22 anos foi preso e um menor de 17 foi apreendido após a confusão. Eles foram levados ao 7° Distrito Policial (DP) de Santos . A Secretaria de Segurança Pública de São Paulo (SSP-SP) informou que o caso foi registrado como desacato pela Central de Polícia Judiciária (CPJ).</p>
         </article>
     </main>
+   
 </body>
 </html>
