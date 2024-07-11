@@ -1,0 +1,13 @@
+
+div.conteiner{
+    background-color: lightsalmon;
+    display: flex;
+    flex-direction: row;
+}
+
+div.item{
+    background-color: lightskyblue;
+    border: 1px solid black;
+    text-align: center;
+   padding: 10px;
+}
