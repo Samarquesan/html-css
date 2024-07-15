@@ -1,13 +1,18 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
 div.conteiner{
     background-color: lightsalmon;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row-reverse;
+    flex-wrap: wrap-reverse; */
+    flex-flow: row wrap;
 }
 
 div.item{
     background-color: lightskyblue;
     border: 1px solid black;
     text-align: center;
-    padding: 10px;
+    flex: auto;
 }
