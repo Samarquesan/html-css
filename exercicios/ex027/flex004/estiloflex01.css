@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div.conteiner{
+    height: 300px;
+    background-color: lightsalmon;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+div.item{
+    background-color: lightskyblue;
+    border: 1px solid black;
+    text-align: center;
+   
+}
