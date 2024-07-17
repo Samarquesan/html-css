@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightsalmon;
+}
+
+main{
+    background-color: lightblue;
+    height: 90vh;
+    width: 90vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    background-color: midnightblue;
+    height: 200px;
+    width: 200px;
+    
+}
